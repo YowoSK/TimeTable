@@ -1,0 +1,27 @@
+table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.row-1 {
+  color: rgb(50, 50, 50);
+  text-shadow: 1px 1px #a0a0a0;
+}
+td, th, tr {
+  border: 1px solid #a0a0a0;
+  text-align: center;
+  padding: 5px 1px 5px 1px;
+  margin-top: 5px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: fit-content;
+}
+td:hover {
+  background-color: rgb(160, 202, 200);
+  transition: 0.45s;
+  transition-delay: 100ms;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
